@@ -1,7 +1,7 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Stwórzcie scenariusz, który wykonuje następujące czynności w szkoleniowej aplikacji litecart.
+//  scenariusz, który wykonuje następujące czynności w aplikacji litecart.
 
 // 1)    Wejście do panelu administratora http://localhost/litecart/admin.
 
