@@ -12,8 +12,8 @@
 // 4) Przy niektórych polach znajdują się odnośniki w postaci kwadratowej ikony ze strzałką, które przekierowują na zewnętrzne strony.
 // Sprawdź czy otwierają się one w nowym oknie.
 
-//  Oczywiście,wystarczyłobysprawdzić, czy link posiada atrybut target="_blank".
-// Jednak, w tym zadaniumusisz kliknąć na link, aby się otworzył w nowym oknie, następnie przejść 
+//  Oczywiście,wystarczyłoby sprawdzić, czy link posiada atrybut target="_blank".
+// Jednak, w tym zadaniu musisz kliknąć na link, aby się otworzył w nowym oknie, następnie przejść 
 // do tego okna, zamknąć go, wrócić i powtórzyć te czynności dla wszystkich tych linków.
 
 // Nie zapomnij, że nowe okno nie otwiera się od razu, dlatego konieczne jest dodanie 
