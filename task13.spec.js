@@ -1,5 +1,6 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
+
 // scenariusz, w którym towary zostaną dodane, a następnie usunięte z koszyka.
 // Powinien się on składać z następujących kroków:
 // 1) otwórz stronę jakiegoś towaru,
@@ -9,7 +10,7 @@
 //   trzy sztuki towaru,
 // 5) otwórz koszyk (kliknij na link Checkout w prawem górnym rogu),
 // 6) usuń wszystkie towary z koszyka, jeden za drugim. Po każdym usunięciu poczekaj, aż odświeży się tabela na dole.
-// Możesz przygotować scenariusz jako test, albo jako oddzielny plik wykonywalny.
+
 
 //import generateRandom from "../../support/random/generateRandom";
 describe('addtoshoppingcart', () => {
