@@ -1,18 +1,18 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Zróbcie skrypt, który sprawdza czy przy kliknięciu na towar otwiera się właściwa strona 
-// towaru w szkoleniowej aplikacji litecart.
+// Sprawdzenie czy przy kliknięciu na towar otwiera się właściwa strona 
+// towaru w aplikacji litecart.
 
-// 1) Otwórzcie stronę główną
+// 1) Otwarcie strony głównej
 // 2) Kliknijcie na pierwszy towar w kategorii Campaigns
-// 3) Sprawdźcie, czy otwiera się strona właściwego towaru
+// 3) Sprawdzenie, czy otwiera się strona właściwego towaru
 
-// Dokładniej, sprawdźcie, czy:
+// Sprawdzenie, czy:
 // а) zgadza się tekst nazwy towaru
 // b) zgadza się cena (obie ceny)
 
-// Oprócz tego, sprawdźcie style ceny na stronie głównej i na stronie towaru - 
+// Sprawdzanie style ceny na stronie głównej i na stronie towaru - 
 // pierwsza cena jest szara i przekreślona, a druga cena jest czerwona i pogrubiona.
 
 describe('Task 10: check title, price and text on two pages', () => {
