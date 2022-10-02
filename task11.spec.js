@@ -1,7 +1,7 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Stwórz scenariusz rejestracji nowego użytkownika w aplikacji szkoleniowej litecart (w części klienckiej 
+// Scenariusz rejestracji nowego użytkownika w aplikacji litecart (w części klienckiej 
 // sklepu, a nie w panelu administracyjnym).
 // Scenariusz powinien się składać z następujących części:
 // 1)Rejestracja nowego konta z unikalnym adresem mailowym (tak, aby nie kolidował
@@ -9,7 +9,6 @@
 // 2)Wylogowanie (logout), ponieważ po udanej rejestracji następuje automatyczne zalogowanie
 // 3)Ponowne zalogowanie na dopiero co utworzone konto
 // 4)Ponowne wylogowanie
-// Można przygotować scenariusz w formie testu albo jako oddzielny plik wykonywalny.
 // Nie jest wymagane przeprowadzenie kontroli, tylko same działania – wypełnienie pól, kliknięcia na 
 // przyciski i linki. Jeśli scenariusz doszedł do końca, tj. nowo stworzony użytkownik mógł wykonać
 //  logowanie i wylogowanie – oznacza to, że utworzenie konta przebiegło pomyślnie.
