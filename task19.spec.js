@@ -1,5 +1,6 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
+
 // scenariusz, w którym towary zostaną dodane, a następnie usunięte z koszyka.
 // Powinien się on składać z następujących kroków:
 // 1) otwórz stronę jakiegoś towaru,
@@ -10,7 +11,7 @@
 // 5) otwórz koszyk (kliknij na link Checkout w prawem górnym rogu),
 // 6) usuń wszystkie towary z koszyka, jeden za drugim. Po każdym usunięciu poczekaj, aż odświeży się tabela na dole.
 // Możesz przygotować scenariusz jako test, albo jako oddzielny plik wykonywalny.
-// Przerób wykonany w zadaniu 13 scenariusz dodawania i usuwania produktów z koszyka tak, 
+// Wykonany w zadaniu 13 scenariusz dodawania i usuwania produktów z koszyka tak, 
 // aby używał architektury wielowarstwowej.
 //   klasy pomocnicze do pracy ze stroną główną (tą, na której zostaje wybrany produkt), 
 //   stroną produktu (tą, na której wykonywane jest dodawanie produktu do koszyka) oraz 
