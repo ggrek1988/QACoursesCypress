@@ -1,16 +1,15 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Zróbcie skrypty, które sprawdzają sortowanie krajów i geostref (stanów) w szkoleniowej aplikacji 
-// litecart.
+//sortowanie krajów i geostref (stanów) w aplikacji litecart.
 
 // 1) na stronie http://localhost/litecart/admin/?app=countries&doc=countries
-// а) sprawdźcie, czy kraje są rozmieszczone w porządku alfabetycznym
-// b) dla tych krajów, w których ilość stref jest różna od zera otwórzcie stronę tego kraju i tam sprawdźcie, 
+// а) SPrawdzanie czy kraje są rozmieszczone w porządku alfabetycznym
+// b) dla tych krajów, w których ilość stref jest różna od zera zostanie otwarta strona  kraju i  zosanie sprawdzone 
 // czy strefy rozmieszczone są w porządku alfabetycznym
 
 // 2) na stronie http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones
-// wejdźcie w każdy z krajów i sprawdźcie, czy strefy są rozmieszczone w porządku alfabetycznym
+// Czy strefy są rozmieszczone w porządku alfabetycznym
 
 describe('Check sorting country and geo zones in Admin', () => {
 
