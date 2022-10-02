@@ -1,7 +1,7 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Stwórz scenariusz dodania nowego artykułu (produktu) w aplikacji litecart (przez panel administracyjny).
+// Scenariusz dodania nowego artykułu (produktu) w aplikacji litecart (przez panel administracyjny).
 // Aby dodać przedmiot należy otworzyć menu Catalog, kliknąć w przycisk Add New Product znajdujący w prawym 
 // górnym rogu, wypełnić pola z informacją o artykule i zapisać.
 // Wystarczy wypełnić tylko informacje na kartach General, Information i Prices.
