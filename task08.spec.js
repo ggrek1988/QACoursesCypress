@@ -1,12 +1,11 @@
 //referencja aby wyswietlało mi potrzebne metody do cypressa
 /// <reference types="cypress" />
 
-// Stwórzcie scenariusz, który sprawdza ilość naklejek na wszystkich artykułach 
-// na stronie głównej w szkoleniowej aplikacji litecart. Naklejki 
+// scenariusz, który sprawdza ilość naklejek na wszystkich artykułach 
+// na stronie głównej w  aplikacji litecart. Naklejki 
 // są to paski w lewym górnym rogu obrazu artykułu, na których jest napisane New, 
-// Sale lub coś innego. Scenariusz powinien sprawdzać, czy każdy artykuł posiada tylko jedną naklejkę. 
-// Można sformułować scenariusz jako test albo jako oddzielny plik wykonywalny. 
-// Jeśli pojawią się problemy z wyborem lokatorów do wyszukiwania elementów – wejdźcie na czat po pomoc.
+// Sale lub coś innego. Scenariusz sprawdza, czy każdy artykuł posiada tylko jedną naklejkę. 
+
 describe('Check stikers on articles', () => {
     it('checking stickers is equal on the number of articles', () => {
         cy.visit("http://localhost:1234/litecart/")
